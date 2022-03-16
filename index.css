@@ -12,8 +12,10 @@ body{
 .information{
  border: 1px solid red;
  min-height: 100vh;
+ order: 2;
 }
 .profile{
     border: 1px solid blue;
     min-height: 100vh;
+    order:1
 }
