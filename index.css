@@ -5,8 +5,9 @@ body{
 .wrapper{
     border: 2px solid green;
     text-align: center;
-    display: grid;
-    grid-template-columns: 600px 1fr;
+    display: flex;
+    justify-content: center;
+    
 }
 .information{
  border: 1px solid red;
