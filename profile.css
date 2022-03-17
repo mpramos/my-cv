@@ -1,6 +1,22 @@
 .profile{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     min-height: 100vh;
     order:1;
-    background: blue;
+    background: var(--black);
+    /* background: var(--gray0); */
+    background: var(--gray6);
+    color:var(--secondary1);
+    width: 900px;
+    
+    
+}
+.profile-img{
+    /* border:1px solid green; */
+    padding-top: 80px;
+    padding-block-end: 80px;
+}
+.profile-img img{
+    /* border: 1px solid red; */
+    block-size: 300px;
+    border-radius: 200px;
 }

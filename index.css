@@ -1,14 +1,48 @@
 @import 'information.css';
 @import 'profile.css';
-body{
-    margin: 0;
-    padding: 0;
-}
-.wrapper{
-    border: 2px solid green;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+@import 'wrapper.css';
+
+:root { 
+    /*COLORES*/
+    --pink1:#e8c39e;
+    --pink2:#f5e1c8;
+    --gray0:#454546;
+    --gray1:#3c3c3c;
+    --gray2:#515151;
+    --gray3:#666666;
+    --gray4:#d3d3d3;
+    --gray5:#dcdcdc;
+    --gray6:#272727;
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #a431e5 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #ffffff 0%, #edd0cc 100%);
+    /* --gradient : radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%); */
+    --primary: #5928e5; 
+    --white: #ffffff; 
+    --secondary1: #fed9da; 
+    --black: #000000; 
+    --background: #0f0e17; 
+    --headline: #fffffe; 
+    --paragraph: #424247; 
+    --secondary: #f25f4c; 
+    --tertiary: #e53170; 
+    --button-background: #ff8906; 
+    --button-text: #fffffe; 
     
+    --headline1: 700 4rem/5rem Nunito; 
+    --headline2: 700 3rem/3.5rem Nunito; 
+    --headline3: 700 2.5rem/3rem Nunito; 
+    --headline4: 400 2rem/2.5rem Lora; 
+    --headline5: 700 1.5rem/2rem Nunito; 
+    --button: 700 1rem/1.5rem Nunito; 
+    --caption: 400 0.75rem/1.375rem Cantarell; 
+    --body1-regular: 400 1.5rem/2.5rem Lora; 
+    --body1-bold: 700 1.5rem/2.5rem Lora; 
+    --body2-regular: 400 1.25rem/2rem Lora; 
+    --body2-bold: 700 1.25rem/2rem Lora; 
+  }
+body{
+   min-block-size: 100vh;
+   margin: 0;
+   padding: 0;
 }
+
 

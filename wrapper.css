@@ -1,0 +1,10 @@
+.wrapper{
+    /* border: 3px solid var(--gray4); */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-inline-size: 1145px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;    
+}
