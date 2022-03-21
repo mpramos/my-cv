@@ -37,6 +37,7 @@
     text-align: center;
     font:var(--headline4);
     color:var(--gray6);
+
     text-transform: uppercase;
     border-bottom: 1px solid var(--gray6);
 }
@@ -91,4 +92,9 @@
 }
 .information-more-experience-content-list{
 
+}
+.footer{
+    /* border: 1px solid red; */
+    /* width: 30px; */
+    height: 100px;
 }
