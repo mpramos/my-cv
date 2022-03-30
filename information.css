@@ -41,11 +41,42 @@
     text-transform: uppercase;
     border-bottom: 1px solid var(--gray6);
 }
-.information-more-personal-description{
-    /* border: 1px solid red; */
+.information-more-personal-description ej{
+    /* border: 1px solid blue; */
     width: 600px;
     text-align: center;
     font:var(--button)
+
+}
+.information-more-personal-description {
+    /* border: 1px solid green; */
+    width: 300px;
+    text-align: start;
+    font:var(--button)
+
+}
+.information-more-personal-description p{
+    /* border: 1px solid red; */
+    /* width: 600px; */
+    /* text-align: center; */
+    font:var(--button)
+
+}
+.information-more-personal-description-academic{
+    /* border: 1px solid red; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* text-align: center; */
+    font:var(--button)
+
+}
+.information-more-personal-description-academic ul li{
+    /* border: 1px solid blue; */
+    text-align: start;
+
 }
 .information-more-education{
     /* border:1px solid red; */

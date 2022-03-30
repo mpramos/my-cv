@@ -16,9 +16,9 @@
     padding-block-end: 80px;
 }
 .profile-img img{
-    /* border: 1px solid red; */
-    block-size: 300px;
-    border-radius: 200px;
+    border: 1px solid var(--gray3);
+    /* block-size: 300px; */
+    border-radius: 5000px;
     
 }
 .profile-contact-ubication a i{
