@@ -1,15 +1,21 @@
 .information{
     background: var(--gray5);
-    /* border: 1px solid #ff0000; */
+    background:white;
+    /* border: 1px solid  var(--gray5); */
+    /* border-right:2px solid black; */
+    /* border-bottom:2px solid black; */
+    box-shadow:2px 2px 2px 2px #32383a;
+    /* border: 0 2px 2px 0 solid var(--paragraph); */
     min-height: 100vh;
     /* min-width: 100vh; */
     order: 2;
 }
 .information-title-name{
-    /* border:1px solid blue; */
+    border:1px solid blue;
     font:var(--headline1);
     color:var(--gray6);
 }
+
 .information-title-job{
 /* border: 1px solid red; */
 
@@ -21,35 +27,42 @@
     text-transform: uppercase;
     font:var(--headline5);
 }
+
 .information-more-personal{
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding-inline-end: 40px;
     padding-inline-start: 40px;
 }
-.information-more-personal-title{
-    /* border: 1px solid green; */
-    
-}
+
 .information-more-personal-title p{
     text-align: center;
+    /* font:var(--headline5); */
     font:var(--headline4);
+    /* font:var(--caption); */
     color:var(--gray6);
 
     text-transform: uppercase;
-    border-bottom: 1px solid var(--gray6);
+    /* border-bottom: 1px solid var(--gray6); */
 }
-.information-more-personal-description ej{
+.information-more-personal-description{
     /* border: 1px solid blue; */
-    width: 600px;
+    /* width: 30px; */
     text-align: center;
     font:var(--button)
 
 }
+.information-more-personal-description-me{
+    /* border: 1px solid blue; */
+    width:600px;
+}
+.information-more-personal-description-me p{
+    font:var(--button)
+}
 .information-more-personal-description {
-    /* border: 1px solid green; */
+    border: 1px solid green;
     width: 300px;
     text-align: start;
     font:var(--button)
@@ -74,19 +87,41 @@
 
 }
 .information-more-personal-description-academic-h{
-    /* border: 1px solid red; */
-    width: 350px;
+    /* border: 1px solid #ff0000; */
+    /* width: 350px; */
+    height:200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     /* text-align: center; */
-    font:var(--button)
+    font:var(--caption);
+    font-size:17px;
 
 }
 .information-more-personal-description-academic ul li{
     /* border: 1px solid blue; */
+    padding-block-start:10px;
+    padding-block-end:20px;
+    font-size:23px;
     text-align: start;
+
+}
+.caption{
+    /* border:1px solid red; */
+    font:var(--caption);
+    font-size:15px;
+    
+}
+.caption1{
+    /* border:1px solid red; */
+    font:var(--caption);
+    font-size:17px;
+}
+.regular{
+    /* border:1px solid red; */
+    font-size: 45px;
+    font:var(--body2-regular);
 
 }
 .information-more-education{

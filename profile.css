@@ -13,7 +13,7 @@
 .profile-img{
     /* border:1px solid green; */
     padding-top: 80px;
-    padding-block-end: 80px;
+    padding-block-end: 30px;
 }
 .profile-img img{
     border: 1px solid var(--gray3);
@@ -26,9 +26,16 @@
 }
 .profile-contact-ubication a{
     /* border: 1px solid red; */
-    
+    padding-block-start:10px;
+    padding-block-end:10px;
+
+    /* border:1px solid green; */
+
 }
 .profile-contact-email{
+    padding-block-start:8px;
+    /* padding-block-end:10px; */
+
     /* border:1px solid green; */
     
 }
@@ -36,12 +43,19 @@
 .profile-contact-email a{
     text-decoration: none;
     color: var(--secondary1);
+    padding-block-start:10px;
+
 }
 .profile-link{
     text-decoration: none;
     color: var(--secondary1);
     font:var(--caption);
     font-size: 15px;
+    padding-block-start:20px;
+    padding-block-end:30px;
+    /* border:4px solid green; */
+
+
 }
 .profile-skill{
     display: flex;
@@ -55,7 +69,7 @@
     /* border: 1px solid red; */
     color:var(--secondary1);
     font:var(--caption);
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .profile-Awarded-text{
@@ -67,11 +81,17 @@
 }
 .profile-skills-title{
     /* border:1px solid red; */
-    padding-block-start: 30px;
-    padding-block-end: 30px;
+    padding-block-start: 12px;
+    padding-block-end: 12px;
     color:var(--black);
     font:var(--button);
-    background: var(--pink1);
-    font-size: 30px;
+    /* background: var(--pink1); */
+    background: var(--secondary1);
+    font-size: 25px;
     color: var(--gray6);
+}
+.profile-skills-title p{
+    /* border:1px solid red; */
+    font-size: 45px;
+    font:var(--body2-regular);
 }
